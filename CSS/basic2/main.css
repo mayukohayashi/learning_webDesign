@@ -1,16 +1,17 @@
 body {
-  font-family: sans-serifq;
+  font-family: sans-serif;
 }
 
 #product {
   background-color: red;
 }
 
-h1 {
-  color: white;
-  font-family: "Odibee Sans";
-}
-
 .section-title {
   color: #2ddf5c;
+  font-family: inherit;
+}
+
+#product h1 {
+  color: white;
+  font-family: "Odibee Sans";
 }
