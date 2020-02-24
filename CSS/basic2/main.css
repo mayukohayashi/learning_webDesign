@@ -1,9 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
+  margin: 0;
 }
 
 #product {
-  background-color: red;
+  background: red;
+  width: 100%;
+  height: 528px;
+  padding: 10px;
 }
 
 .section-title {
@@ -14,4 +22,55 @@ body {
 #product h1 {
   color: white;
   font-family: "Odibee Sans";
+}
+
+.main-header {
+  width: 100%;
+  background-color: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header>div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.brand {
+  color: #234e2f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+
+}
+
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  color: #234e2f;
+  text-decoration: none;
+}
+
+.main-nav__item a:hover {
+  color: whitesmoke
+}
+
+.main-nav__item a:active {
+  color: whitesmoke
 }
